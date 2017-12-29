@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 import {reducer as formReducer} from 'redux-form';
-import FetchPostReducer from './fetch_post_reducer';
+import FetchPostReducer from './reducer_post';
 
 const rootReducer = combineReducers({
   posts: FetchPostReducer,
